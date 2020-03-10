@@ -1,12 +1,15 @@
-﻿using System;
+﻿using AbstractFactory.Factory;
+using AbstractFactory.Game;
 
 namespace AbstractFactory
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var defaultGame = new MazeGame().CreateMaze(new MazeFactory());
+            var enchantedGame = new MazeGame().CreateMaze(new EnchantedMazeFactory());
+            var bombedGame = new MazeGame().CreateMaze(new BombedMazeFactory());
         }
     }
 }
