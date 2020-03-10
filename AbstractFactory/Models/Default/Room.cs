@@ -22,7 +22,14 @@ namespace AbstractFactory.Models.Default
 
         public void SetSide(Direction direction, BaseRoom wall)
         {
-            _sides.Add(direction, wall);
+            if (_sides.ContainsKey(direction))
+            {
+                _sides[direction] = wall;
+            }
+            else
+            {
+                _sides.Add(direction, wall);
+            }
         }
 
         public Dictionary<Direction, BaseRoom> GetSides() => _sides;

@@ -8,6 +8,10 @@ namespace AbstractFactory.Models.Default
         private readonly Room _room2;
         private bool _isOpen;
 
+        public Door()
+        {
+        }
+
         public Door(Room room1, Room room2)
         {
             _room1 = room1;

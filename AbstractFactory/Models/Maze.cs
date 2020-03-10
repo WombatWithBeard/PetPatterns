@@ -6,6 +6,7 @@ namespace AbstractFactory.Models
     public class Maze
     {
         private readonly List<Room> _rooms;
+
         public Maze()
         {
             _rooms = new List<Room>();
@@ -17,5 +18,7 @@ namespace AbstractFactory.Models
         }
 
         public List<Room> GetRooms() => _rooms;
+
+        public Room GetRoom(int roomNumber) => _rooms.Find(x => x.GetRoomNumber() == roomNumber);
     }
 }
