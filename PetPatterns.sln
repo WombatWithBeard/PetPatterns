@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{952B7558-FA2C-42C1-949F-50DEF2D8E946}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{FAFE5C8B-0417-4DAC-8C64-04FBD5DABE48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{952B7558-FA2C-42C1-949F-50DEF2D8E946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952B7558-FA2C-42C1-949F-50DEF2D8E946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952B7558-FA2C-42C1-949F-50DEF2D8E946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFE5C8B-0417-4DAC-8C64-04FBD5DABE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFE5C8B-0417-4DAC-8C64-04FBD5DABE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFE5C8B-0417-4DAC-8C64-04FBD5DABE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFE5C8B-0417-4DAC-8C64-04FBD5DABE48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

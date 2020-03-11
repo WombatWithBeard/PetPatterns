@@ -134,6 +134,28 @@
           <e p="ProductsName.cs" t="Include" />
         </e>
       </e>
+      <e p="Observer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IObservable.cs" t="Include" />
+          <e p="IObserver.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Bank.cs" t="Include" />
+          <e p="Broker.cs" t="Include" />
+          <e p="Stock.cs" t="Include" />
+          <e p="StockInfo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Observer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Observer.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PetPatterns.sln" t="IncludeFlat" />
       <e p="Strategy" t="IncludeRecursive">
