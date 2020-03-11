@@ -153,6 +153,26 @@
           <e p="ProductsName.cs" t="Include" />
         </e>
       </e>
+      <e p="Mediator" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Mediator.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Colleague.cs" t="Include" />
+          <e p="CustomerColleague.cs" t="Include" />
+          <e p="ManagerMediator.cs" t="Include" />
+          <e p="Mediator.cs" t="Include" />
+          <e p="ProgrammerColleague.cs" t="Include" />
+          <e p="TesterColleague.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Mediator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="Observer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
