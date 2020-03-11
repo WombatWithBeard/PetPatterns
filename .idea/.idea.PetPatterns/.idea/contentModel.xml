@@ -90,7 +90,17 @@
       </e>
       <e p="Decorator" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Decorator" t="Include">
+          <e p="CarbonCar.cs" t="Include" />
+          <e p="CarDecorator.cs" t="Include" />
+          <e p="RedCar.cs" t="Include" />
+        </e>
         <e p="Decorator.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Car.cs" t="Include" />
+          <e p="Ferrari.cs" t="Include" />
+          <e p="Zonda.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
