@@ -158,6 +158,30 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PetPatterns.sln" t="IncludeFlat" />
+      <e p="State" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="WaterState.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IWaterState.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="GasWaterState.cs" t="Include" />
+          <e p="LiquidWaterState.cs" t="Include" />
+          <e p="SolidWaterState.cs" t="Include" />
+          <e p="Water.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="State.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="State.csproj" t="IncludeRecursive" />
+      </e>
       <e p="Strategy" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
