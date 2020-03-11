@@ -1,5 +1,4 @@
-﻿using System;
-using Observer.Models;
+﻿using Observer.Models;
 
 namespace Observer
 {

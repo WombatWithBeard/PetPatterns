@@ -1,5 +1,4 @@
-﻿using System;
-using Strategy.Model;
+﻿using Strategy.Model;
 
 namespace Strategy
 {

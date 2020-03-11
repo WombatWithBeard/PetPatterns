@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{BD8A55EB-0A74-4550-A966-3D79AFCE71D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{BA01E7F0-33FA-42D2-9170-3A178AE10C7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{BD8A55EB-0A74-4550-A966-3D79AFCE71D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD8A55EB-0A74-4550-A966-3D79AFCE71D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8A55EB-0A74-4550-A966-3D79AFCE71D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA01E7F0-33FA-42D2-9170-3A178AE10C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA01E7F0-33FA-42D2-9170-3A178AE10C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA01E7F0-33FA-42D2-9170-3A178AE10C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA01E7F0-33FA-42D2-9170-3A178AE10C7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

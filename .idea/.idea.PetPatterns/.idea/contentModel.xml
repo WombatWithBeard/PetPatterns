@@ -88,6 +88,25 @@
           <e p="StandardMazeBuilder.cs" t="Include" />
         </e>
       </e>
+      <e p="ChainOfResponsibility" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChainOfResponsibility.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="BankPaymentHandler.cs" t="Include" />
+          <e p="MoneyPaymentHandler.cs" t="Include" />
+          <e p="PaymentHandler.cs" t="Include" />
+          <e p="PayPalPaymentHandler.cs" t="Include" />
+          <e p="receiver.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ChainOfResponsibility.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="Decorator" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Decorator" t="Include">

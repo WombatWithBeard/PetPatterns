@@ -1,5 +1,4 @@
-﻿using System;
-using State.Models;
+﻿using State.Models;
 
 namespace State
 {
