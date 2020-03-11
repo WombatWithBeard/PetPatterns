@@ -4,7 +4,7 @@ namespace Adapter
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var c = new Client();
             c.Request(new Target());
