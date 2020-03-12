@@ -70,6 +70,28 @@
           <e p="Client.cs" t="Include" />
         </e>
       </e>
+      <e p="Bridge" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bridge.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="ILanguage.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="CorporateDeveloper.cs" t="Include" />
+          <e p="CppLanguage.cs" t="Include" />
+          <e p="CSharpLanguage.cs" t="Include" />
+          <e p="Developer.cs" t="Include" />
+          <e p="FreelanceDeveloper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Bridge.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="Builder" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Builder.csproj" t="IncludeRecursive" />
