@@ -7,7 +7,7 @@ namespace ChainOfResponsibility
     {
         static void Main()
         {
-            var receiver = new Receiver(false, true, true);
+            var receiver = new Receiver(false, true, false);
             
             var bank = new BankPaymentHandler();
             var paypal = new PayPalPaymentHandler();

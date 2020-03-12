@@ -13,7 +13,8 @@ namespace Mediator.Models
                 Programmer.Notify(msg);
             else if (Programmer == colleague)
                 Tester.Notify(msg);
-            else if (Tester == colleague) Customer.Notify(msg);
+            else if (Tester == colleague) 
+                Customer.Notify(msg);
         }
     }
 }
