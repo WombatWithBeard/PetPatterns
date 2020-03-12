@@ -1,5 +1,4 @@
-﻿using System;
-using Mediator.Models;
+﻿using Mediator.Models;
 
 namespace Mediator
 {

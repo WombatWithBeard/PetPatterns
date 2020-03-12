@@ -1,5 +1,4 @@
-﻿using System;
-using Visitor.Models;
+﻿using Visitor.Models;
 using Visitor.Visitors;
 
 namespace Visitor
