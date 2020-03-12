@@ -2,9 +2,9 @@
 
 namespace Mediator
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var mediator = new ManagerMediator();
             var customer = new CustomerColleague(mediator);

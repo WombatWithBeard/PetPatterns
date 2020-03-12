@@ -3,9 +3,9 @@ using FactoryMethod.Creators;
 
 namespace FactoryMethod
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var creator = new Creator();
             

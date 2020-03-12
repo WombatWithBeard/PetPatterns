@@ -2,9 +2,9 @@
 
 namespace State
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var water = new Water(new LiquidWaterState());
             water.HeatUp();

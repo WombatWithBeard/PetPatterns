@@ -2,9 +2,9 @@
 
 namespace Strategy
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var car = new Car(new DefaultMove());
             car.Move();
